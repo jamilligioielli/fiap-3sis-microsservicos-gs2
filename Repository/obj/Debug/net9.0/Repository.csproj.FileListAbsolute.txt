@@ -1,0 +1,16 @@
+D:\fiap-3sis-microsservicos-gs2\Repository\bin\Debug\net9.0\Repository.deps.json
+D:\fiap-3sis-microsservicos-gs2\Repository\bin\Debug\net9.0\Repository.dll
+D:\fiap-3sis-microsservicos-gs2\Repository\bin\Debug\net9.0\Repository.pdb
+D:\fiap-3sis-microsservicos-gs2\Repository\bin\Debug\net9.0\Domain.dll
+D:\fiap-3sis-microsservicos-gs2\Repository\bin\Debug\net9.0\Domain.pdb
+D:\fiap-3sis-microsservicos-gs2\Repository\obj\Debug\net9.0\Repository.csproj.AssemblyReference.cache
+D:\fiap-3sis-microsservicos-gs2\Repository\obj\Debug\net9.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\fiap-3sis-microsservicos-gs2\Repository\obj\Debug\net9.0\Repository.AssemblyInfoInputs.cache
+D:\fiap-3sis-microsservicos-gs2\Repository\obj\Debug\net9.0\Repository.AssemblyInfo.cs
+D:\fiap-3sis-microsservicos-gs2\Repository\obj\Debug\net9.0\Repository.csproj.CoreCompileInputs.cache
+D:\fiap-3sis-microsservicos-gs2\Repository\obj\Debug\net9.0\Repository.sourcelink.json
+D:\fiap-3sis-microsservicos-gs2\Repository\obj\Debug\net9.0\Repository.csproj.Up2Date
+D:\fiap-3sis-microsservicos-gs2\Repository\obj\Debug\net9.0\Repository.dll
+D:\fiap-3sis-microsservicos-gs2\Repository\obj\Debug\net9.0\refint\Repository.dll
+D:\fiap-3sis-microsservicos-gs2\Repository\obj\Debug\net9.0\Repository.pdb
+D:\fiap-3sis-microsservicos-gs2\Repository\obj\Debug\net9.0\ref\Repository.dll

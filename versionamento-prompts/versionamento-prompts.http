@@ -1,0 +1,6 @@
+@versionamento_prompts_HostAddress = http://localhost:5038
+
+GET {{versionamento_prompts_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
