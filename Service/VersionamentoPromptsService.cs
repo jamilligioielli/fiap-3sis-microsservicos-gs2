@@ -54,7 +54,7 @@ public class VersionamentoPromptsService : IVersionamentoPromptsService
         };
         var newId = 1;
         var versoesAtuais = _versaoRepository.GetAllVersoes();
-        if(versoesAtuais.Count() <= 0)
+        if(versoesAtuais.Count() > 0)
         {
             newId = versoesAtuais.Last().idVersao++;
         }
