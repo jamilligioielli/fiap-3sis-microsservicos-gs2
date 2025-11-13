@@ -1,7 +1,5 @@
 ﻿using DTO;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
+using Microsoft.AspNetCore.Mvc; 
 using Service;
 using System.Net;
 
