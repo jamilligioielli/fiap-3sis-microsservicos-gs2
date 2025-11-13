@@ -13,4 +13,14 @@ public class DatabaseContext : DbContext
 
     public DbSet<Versao> Versoes { get; set; }
 
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        // Define primary key using Fluent API
+        modelBuilder.Entity<Prompt>()
+            .HasKey(p => p.id);
+
+        modelBuilder.Entity<Versao>()
+            .HasKey(v => v.idVersao);
+    }
+
 }
