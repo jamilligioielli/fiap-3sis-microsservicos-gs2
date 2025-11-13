@@ -1,0 +1,12 @@
+D:\fiap-3sis-microsservicos-gs2\DTO\bin\Debug\net9.0\DTO.deps.json
+D:\fiap-3sis-microsservicos-gs2\DTO\bin\Debug\net9.0\DTO.dll
+D:\fiap-3sis-microsservicos-gs2\DTO\bin\Debug\net9.0\DTO.pdb
+D:\fiap-3sis-microsservicos-gs2\DTO\obj\Debug\net9.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\fiap-3sis-microsservicos-gs2\DTO\obj\Debug\net9.0\DTO.AssemblyInfoInputs.cache
+D:\fiap-3sis-microsservicos-gs2\DTO\obj\Debug\net9.0\DTO.AssemblyInfo.cs
+D:\fiap-3sis-microsservicos-gs2\DTO\obj\Debug\net9.0\DTO.csproj.CoreCompileInputs.cache
+D:\fiap-3sis-microsservicos-gs2\DTO\obj\Debug\net9.0\DTO.sourcelink.json
+D:\fiap-3sis-microsservicos-gs2\DTO\obj\Debug\net9.0\DTO.dll
+D:\fiap-3sis-microsservicos-gs2\DTO\obj\Debug\net9.0\refint\DTO.dll
+D:\fiap-3sis-microsservicos-gs2\DTO\obj\Debug\net9.0\DTO.pdb
+D:\fiap-3sis-microsservicos-gs2\DTO\obj\Debug\net9.0\ref\DTO.dll

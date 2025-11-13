@@ -1,11 +1,11 @@
 ﻿namespace Repository;
 using Domain;
 
-public class PromptRepsitory : IPromptRepository
+public class PromptRepository : IPromptRepository
 {
     private readonly DatabaseContext _context;
 
-    public PromptRepsitory(DatabaseContext context)
+    public PromptRepository(DatabaseContext context)
     {
         _context = context;
     }

@@ -37,5 +37,10 @@ public class VersaoRepository : IVersaoRepository
         _context.Versoes.Add(versao);
         _context.SaveChanges();
     }
+
+    public IEnumerable<Versao> GetAllVersoes()
+    {
+        return _context.Versoes.ToList();
+    }
 }
 

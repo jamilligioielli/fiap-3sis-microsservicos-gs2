@@ -1,6 +1,7 @@
 using System.Net;
 using Microsoft.EntityFrameworkCore;
 using Repository;
+using Service;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services
+    .AddScoped<IVersionamentoPromptsService, VersionamentoPromptsService>()
+    .AddScoped<IPromptRepository, PromptRepository>()
+    .AddScoped<IVersaoRepository, VersaoRepository>()
+    .AddDbContext<DatabaseContext>(opt => opt.UseInMemoryDatabase("gs2"));
 
 var app = builder.Build();
 

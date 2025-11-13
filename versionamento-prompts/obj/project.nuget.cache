@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "C8FW7pzEg2U=",
+  "dgSpecHash": "ACs9XkeAv0s=",
   "success": true,
   "projectFilePath": "D:\\fiap-3sis-microsservicos-gs2\\versionamento-prompts\\versionamento-prompts.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,8 @@
     "C:\\Users\\labsfiap\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.0\\microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512",
     "C:\\Users\\labsfiap\\.nuget\\packages\\microsoft.extensions.options\\9.0.0\\microsoft.extensions.options.9.0.0.nupkg.sha512",
     "C:\\Users\\labsfiap\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0\\microsoft.extensions.primitives.9.0.0.nupkg.sha512",
-    "C:\\Users\\labsfiap\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+    "C:\\Users\\labsfiap\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\labsfiap\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
   ],
   "logs": []
 }

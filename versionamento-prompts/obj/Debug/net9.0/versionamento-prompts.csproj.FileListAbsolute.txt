@@ -35,3 +35,10 @@ D:\fiap-3sis-microsservicos-gs2\versionamento-prompts\obj\Debug\net9.0\refint\ve
 D:\fiap-3sis-microsservicos-gs2\versionamento-prompts\obj\Debug\net9.0\versionamento-prompts.pdb
 D:\fiap-3sis-microsservicos-gs2\versionamento-prompts\obj\Debug\net9.0\versionamento-prompts.genruntimeconfig.cache
 D:\fiap-3sis-microsservicos-gs2\versionamento-prompts\obj\Debug\net9.0\ref\versionamento-prompts.dll
+D:\fiap-3sis-microsservicos-gs2\versionamento-prompts\bin\Debug\net9.0\Controllers\obj\Controllers.csproj.nuget.dgspec.json
+D:\fiap-3sis-microsservicos-gs2\versionamento-prompts\bin\Debug\net9.0\Controllers\obj\project.assets.json
+D:\fiap-3sis-microsservicos-gs2\versionamento-prompts\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\fiap-3sis-microsservicos-gs2\versionamento-prompts\bin\Debug\net9.0\DTO.dll
+D:\fiap-3sis-microsservicos-gs2\versionamento-prompts\bin\Debug\net9.0\Service.dll
+D:\fiap-3sis-microsservicos-gs2\versionamento-prompts\bin\Debug\net9.0\DTO.pdb
+D:\fiap-3sis-microsservicos-gs2\versionamento-prompts\bin\Debug\net9.0\Service.pdb

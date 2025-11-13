@@ -243,6 +243,19 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -251,6 +264,16 @@
         },
         "runtime": {
           "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTO.dll": {}
         }
       },
       "Repository/1.0.0": {
@@ -266,6 +289,20 @@
         },
         "runtime": {
           "bin/placeholder/Repository.dll": {}
+        }
+      },
+      "Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "DTO": "1.0.0",
+          "Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Service.dll": {}
         }
       }
     }
@@ -652,22 +689,64 @@
         "microsoft.openapi.nuspec"
       ]
     },
+    "Newtonsoft.Json/13.0.4": {
+      "sha512": "pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.4.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
     },
+    "DTO/1.0.0": {
+      "type": "project",
+      "path": "../DTO/DTO.csproj",
+      "msbuildProject": "../DTO/DTO.csproj"
+    },
     "Repository/1.0.0": {
       "type": "project",
       "path": "../Repository/Repository.csproj",
       "msbuildProject": "../Repository/Repository.csproj"
+    },
+    "Service/1.0.0": {
+      "type": "project",
+      "path": "../Service/Service.csproj",
+      "msbuildProject": "../Service/Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Domain >= 1.0.0",
+      "DTO >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.5",
-      "Repository >= 1.0.0"
+      "Newtonsoft.Json >= 13.0.4",
+      "Repository >= 1.0.0",
+      "Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -703,11 +782,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\fiap-3sis-microsservicos-gs2\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\fiap-3sis-microsservicos-gs2\\Domain\\Domain.csproj"
+            "D:\\fiap-3sis-microsservicos-gs2\\DTO\\DTO.csproj": {
+              "projectPath": "D:\\fiap-3sis-microsservicos-gs2\\DTO\\DTO.csproj"
             },
             "D:\\fiap-3sis-microsservicos-gs2\\Repository\\Repository.csproj": {
               "projectPath": "D:\\fiap-3sis-microsservicos-gs2\\Repository\\Repository.csproj"
+            },
+            "D:\\fiap-3sis-microsservicos-gs2\\Service\\Service.csproj": {
+              "projectPath": "D:\\fiap-3sis-microsservicos-gs2\\Service\\Service.csproj"
             }
           }
         }
@@ -731,6 +813,10 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[9.0.5, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.4, )"
           }
         },
         "imports": [
