@@ -52,11 +52,11 @@ public class VersionamentoPromptsService : IVersionamentoPromptsService
             dataCriacao = data,
             dataAlteracao = null
         };
-
-        var newId = _versaoRepository.GetAllVersoes().Last().idVersao++;
-        if(newId == null || newId <= 0)
+        var newId = 1;
+        var versoesAtuais = _versaoRepository.GetAllVersoes();
+        if(versoesAtuais.Count() <= 0)
         {
-            newId = 1;
+            newId = versoesAtuais.Last().idVersao++;
         }
 
         var versaoPrompt = new Versao
