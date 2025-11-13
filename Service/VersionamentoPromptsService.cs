@@ -54,6 +54,10 @@ public class VersionamentoPromptsService : IVersionamentoPromptsService
         };
 
         var newId = _versaoRepository.GetAllVersoes().Last().idVersao++;
+        if(newId == null || newId <= 0)
+        {
+            newId = 1;
+        }
 
         var versaoPrompt = new Versao
         {

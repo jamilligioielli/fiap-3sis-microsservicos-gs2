@@ -29,7 +29,7 @@ public class PromptsController : ControllerBase
         catch (Exception ex)
         {
             _logger.LogError(ex, "Erro ao cadastrar prompt");
-            return StatusCode(500, "Erro interno do servidor ao cadastrar livro");
+            return StatusCode(500, "Erro interno do servidor ao cadastrar prompt");
         }
     }
 
